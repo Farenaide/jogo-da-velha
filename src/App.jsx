@@ -1,11 +1,10 @@
-import './App.css'
+import React from "react";
+import Sobre from "./objects/Sobre";
 
 function App() {
-  return (
-    <p className="App">
-      sobre
-    </p>
-  )
+    return (
+        <Sobre />
+    )
 }
 
 export default App
