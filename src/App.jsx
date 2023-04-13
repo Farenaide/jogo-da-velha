@@ -1,9 +1,11 @@
 import React from "react";
-import Sobre from "./objects/Sobre";
+import HeaderComponent from "./components/HeaderComponent";
 
 function App() {
     return (
-        <Sobre />
+        <>
+            <HeaderComponent/>
+        </>
     )
 }
 

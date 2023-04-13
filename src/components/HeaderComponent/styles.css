@@ -1,0 +1,23 @@
+.HeaderComponent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 34px 0 34px;
+}
+
+.HeaderComponent > .menu{
+    width: 25px;
+}
+
+.HeaderComponent > .sobre{
+    margin-left: auto;
+    margin-right: 10px;    
+}
+
+
+
+@media (max-width:575.98px) {
+    .HeaderComponent > .collab-logo{
+        max-width: 150px;
+    }
+}
