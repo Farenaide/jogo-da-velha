@@ -1,0 +1,13 @@
+.circle{
+    box-sizing: border-box;
+    width: 42px;
+    height: 42px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 5px solid var(--color-third);   
+    color: transparent;
+    user-select: none;
+    cursor: pointer;
+}
+
+
