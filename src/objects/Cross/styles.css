@@ -1,0 +1,26 @@
+.cross{
+    height: 43px;
+    width: 43px;
+    position: relative;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    user-select: none;
+    cursor: pointer;
+}
+
+.cross::before, .cross::after{
+    content: '';
+    display: block;
+    height: 60px;
+    width: 5px;
+    background-color: var(--color-third);
+    border-radius: 5px;
+    position: absolute;
+    rotate: -45deg;
+}
+
+.cross::after{
+    rotate: 45deg;
+}
