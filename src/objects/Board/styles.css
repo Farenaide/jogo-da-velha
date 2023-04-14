@@ -1,0 +1,7 @@
+.board{
+    height: 290px;
+    width: 290px;
+    background-color: var(--color-zero);
+    box-shadow: 0px 3px 6px var(--color-shadow);
+    border-radius: var(--spacing-radius);
+}
